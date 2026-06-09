@@ -1,1 +1,2 @@
-[org/gnome/shell]\nenabled-extensions=['dash-to-dock@micxgx.gmail.com', 'background-logo@fedorahosted.org']
+[org/gnome/shell]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com', 'background-logo@fedorahosted.org']
