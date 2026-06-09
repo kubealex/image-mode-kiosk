@@ -22,6 +22,6 @@ flightctl login $TLS_FLAG \
 flightctl $TLS_FLAG certificate request \
   --signer=enrollment \
   --expiration=365d \
-  --output=embedded > kiosk_image/config.yaml
+  --output=embedded > config.yaml
 
-echo "Written to kiosk_image/config.yaml"
+echo "Written to config.yaml"
