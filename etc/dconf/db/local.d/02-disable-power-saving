@@ -1,0 +1,1 @@
+[org/gnome/desktop/screensaver]\nlock-enabled=false\nlock-delay=uint32 0\n\n[org/gnome/desktop/session]\nidle-delay=uint32 0
