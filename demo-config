@@ -1,0 +1,5 @@
+# rhem-cert.conf
+RHEM_API_SERVER_URL=<DNS_Name>:3443
+RHEM_USER=<your_user>
+RHEM_PASSWORD=<your_password>
+SKIP_TLS=true
