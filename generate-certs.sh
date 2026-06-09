@@ -19,9 +19,9 @@ flightctl login $TLS_FLAG \
   --password="$RHEM_PASSWORD" \
   "https://$RHEM_API_SERVER_URL"
 
-flightctl $TLS_FLAG certificate request \
+flightctl certificate request \
   --signer=enrollment \
   --expiration=365d \
-  --output=embedded > config.yaml
+  --output=embedded $TLS_FLAG > config.yaml
 
 echo "Written to config.yaml"
