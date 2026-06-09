@@ -41,7 +41,7 @@ RUN mkdir -p /usr/share/dash-to-dock && \
     unzip /tmp/dash-to-dock.zip -d /usr/share/dash-to-dock && \
     rm /tmp/dash-to-dock.zip
 
-COPY config.yaml /etf/flightctl/config.yaml
+COPY config.yaml /etc/flightctl/config.yaml
 COPY --chmod=644 etc/ etc/
 COPY --chmod=644 usr/ usr/
 
